@@ -42,9 +42,34 @@ header .titolo .testo h1 {
 
 /* menu */
 header .menu {
-  background: orange;
-  height: 100px;
+  background: #504741;
+  line-height: 2;
+
 }
+
+header .menu ul {
+  list-style-type: none;
+  width: 70%;
+  margin: auto;
+}
+
+header .menu ul li {
+  display: inline-block;
+}
+
+header .menu ul li a {
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+}
+
+/**** hover sui tasti del menu *****/
+header .menu ul li:hover {
+  background: #3d3732;
+}
+
+
+
 /* Fine header */
 
 /* Inizio main */
