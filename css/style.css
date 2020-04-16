@@ -75,12 +75,17 @@ header .menu ul li:hover {
 /* Inizio main */
 main .col {
   float: left;
+  background: white;
 }
 
-/* colonna di destra */
+main .col h3 {
+  color: #504741;
+  text-shadow: 1px 1px #DCDCDC;
+}
+
+/* colonna di sinistra */
 main .col-left {
   width: 20%;
-  background: white;
   padding: 10px;
 }
 
@@ -109,16 +114,18 @@ main .col-left ul li {
 /* colonna centrale */
 main .col-center  {
   width: 50%;
-  height: 100px;
-  background: purple;
   margin: 0 5%;
+  padding: 20px;
 }
 
-/* colonna di sinistra */
+main .col-center h3 {
+  margin-bottom: 30px;
+}
+
+/* colonna di destra */
 main .col-right {
   width: 20%;
   height: 100px;
-  background: pink;
 }
 
 main::after {
