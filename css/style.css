@@ -1,0 +1,84 @@
+/* Inizio reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Fine Reset */
+
+/* Inizio sfondo e contenitore  */
+body {
+  background-image: url("../img/sfondo.png");
+}
+
+.main-wrapper {
+  width: 1024px;
+  margin: 10px auto;
+}
+/* Fine sfondo e contenitore  */
+
+/* Inizio header */
+/* titolo */
+header .titolo {
+  background-image: url("../img/background-header.jpg");
+  height: 200px;
+  border: 10px solid white;
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+header .titolo .testo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+header .titolo .testo h1 {
+  border: 1px solid white;
+  margin-bottom: 5px;
+}
+
+/* menu */
+header .menu {
+  background: orange;
+  height: 100px;
+}
+/* Fine header */
+
+/* Inizio main */
+main .col {
+  float: left;
+}
+
+main .col-left, .col-right {
+  width: 20%;
+  height: 100px;
+  background: pink;
+}
+
+main .col-center  {
+  width: 50%;
+  height: 100px;
+  background: purple;
+  margin: 0 5%;
+}
+
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+main {
+  margin: 5px 0;
+}
+/* Fine main */
+
+/* Inizio footer */
+footer {
+  background: cyan;
+  height: 100px;
+}
+/* Inizio footer */
