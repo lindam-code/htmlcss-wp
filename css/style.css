@@ -77,17 +77,48 @@ main .col {
   float: left;
 }
 
-main .col-left, .col-right {
+/* colonna di destra */
+main .col-left {
   width: 20%;
-  height: 100px;
-  background: pink;
+  background: white;
+  padding: 10px;
 }
 
+main .col-left i {
+  background: orange;
+  color: white;
+}
+
+main .col-left ul {
+  list-style-type: none;
+}
+
+main .col-left ul li a {
+  list-style-type: none;
+  color: green;
+  text-decoration: none;
+}
+
+main .col-left ul li {
+  list-style-type: none;
+  color: green;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+/* colonna centrale */
 main .col-center  {
   width: 50%;
   height: 100px;
   background: purple;
   margin: 0 5%;
+}
+
+/* colonna di sinistra */
+main .col-right {
+  width: 20%;
+  height: 100px;
+  background: pink;
 }
 
 main::after {
