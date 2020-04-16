@@ -155,7 +155,30 @@ main {
 
 /* Inizio footer */
 footer {
-  background: cyan;
-  height: 100px;
+  background: white;
+  color: grey;
+  font-style: italic;
 }
-/* Inizio footer */
+
+/* intestazione del footer */
+footer .header-footer {
+  text-align: center;
+}
+
+/* colonne del footer*/
+footer .col-footer {
+  width: 33.33%;
+  height: 100px;
+  float: left;
+  position: relative;
+  background: white;
+}
+
+footer .col-footer i {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* Fine footer */
