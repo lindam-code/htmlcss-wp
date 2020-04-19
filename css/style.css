@@ -161,6 +161,8 @@ footer {
   color: grey;
   font-style: italic;
   border-radius: 2px;
+  position: relative;
+  height: 100px;
 }
 
 /* intestazione del footer */
@@ -168,20 +170,17 @@ footer .header-footer {
   text-align: center;
 }
 
-/* colonne del footer*/
-footer .col-footer {
-  width: 33.33%;
-  height: 100px;
+/* menu del footer*/
+footer ul li {
   float: left;
-  position: relative;
-  background: white;
+  width: 33.33%;
+  text-align: center;
+  line-height: 80px;
+  list-style-type: none;
+  font-size: 50px;
 }
 
-footer .col-footer i {
-  font-size: 30px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+footer ul li a {
+    color: grey;
 }
 /* Fine footer */
