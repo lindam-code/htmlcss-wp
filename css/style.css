@@ -9,6 +9,7 @@
 /* Inizio sfondo e contenitore  */
 body {
   background-image: url("../img/sfondo.png");
+  font-family: 'Roboto', sans-serif;
 }
 
 .main-wrapper {
